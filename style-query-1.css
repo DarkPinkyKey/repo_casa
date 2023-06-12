@@ -1,0 +1,20 @@
+/* Mobile */
+@media (width <= 425px) {
+    *{
+        background-color: chocolate;
+    }
+}
+
+/* Tablet */
+@media (425px < width < 1024px) {
+	*{
+        background-color: aqua;
+    }
+}
+
+/* Desktop */
+@media (width >= 1024px){
+    *{
+        background-color: crimson;
+    }
+}
