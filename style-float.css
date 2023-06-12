@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  
+  .texto {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  img {
+    float: center;
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+  }
