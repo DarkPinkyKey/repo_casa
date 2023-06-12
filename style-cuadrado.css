@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .cuadrado {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+  }
+  
+  .circulo {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(183, 240, 71);
+    border: 2px solid black;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .circulo:nth-child(1) {
+    top: -15px;
+    left: -15px;
+  }
+  
+  .circulo:nth-child(2) {
+    top: -15px;
+    right: -15px;
+  }
+  
+  .circulo:nth-child(3) {
+    bottom: -15px;
+    left: -15px;
+  }
+  
+  .circulo:nth-child(4) {
+    bottom: -15px;
+    right: -15px;
+  }
