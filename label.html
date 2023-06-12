@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style-label.css">
+<head>
+  <title>Input Numérico</title>
+
+</head>
+<body>
+  <label for="numeroInput">Introduce una Edad:</label>
+  <input type="number" id="numeroInput" min="0" max="120" oninput="validarNumero(this.value)">
+  <div id="mensajeError" class="error"></div>
+
+  <script>
+    function validarNumero(valor) {
+      var mensajeError = document.getElementById("mensajeError");
+      var numeroInput = document.getElementById("numeroInput");
+      if (valor >= 0 && valor <= 120) {
+        mensajeError.textContent = "";
+        numeroInput.classList.add("success");
+        numeroInput.classList.remove("error");
+      } else {
+        mensajeError.textContent = "¡Edad fuera de rango!";
+        numeroInput.classList.add("error");
+        numeroInput.classList.remove("success");
+      }
+    }
+  </script>
+</body>
+</html>
