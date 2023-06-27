@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Juego de Piedra, Papel, Tijera</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h4>Que comience el juego</h4>
+  <div class="game-container">
+    <div class="player">
+      <h2>Player 1</h2>
+      <div class="icons">
+        <button onclick="playGame('piedra')">✊</button>
+        <button onclick="playGame('papel')">✋</button>
+        <button onclick="playGame('tijera')">✌️</button>
+      </div>
+    </div>
+    <div class="computer">
+      <h2>Computer</h2>
+      <div class="icons">
+        <button onclick="playGame(getComputerChoice())">?</button>
+      </div>
+    </div>
+  </div>
+  <div id="results"></div>
+  <div id="winner-message"></div>
+  <script src="script.js"></script>
+</body>
+</html>

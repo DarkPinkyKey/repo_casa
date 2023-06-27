@@ -1,0 +1,24 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .player, .computer {
+    margin: 20px;
+  }
+  
+  .icons button {
+    font-size: 40px;
+    margin: 5px;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  #winner-message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  

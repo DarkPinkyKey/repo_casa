@@ -1,0 +1,40 @@
+.pet{
+  width: 200px;
+  height: 300px;
+}
+
+#tamagotchi {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.status-bar {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  transition: width 1s linear;
+}
+
+#health-bar {
+  background-color: green;
+}
+
+#food-bar {
+  background-color: blue;
+  top: 30px;
+}
+
+#sleep-bar {
+  background-color: purple;
+  top: 60px;
+}
+
+#play-bar {
+  background-color: orange;
+  top: 90px;
+}
